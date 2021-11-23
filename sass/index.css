@@ -1,0 +1,142 @@
+body, * {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  width: 100%;
+  height: 64px;
+  background-color: #1e1e1e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+li {
+  width: 100px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+li a {
+  -webkit-transition-property: color, border;
+  transition-property: color, border;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  text-decoration: none;
+  color: #fff;
+}
+
+li a:hover {
+  color: red;
+  border: 1px solid red;
+}
+
+.btn button {
+  padding: 20px;
+  background-color: #1e1e1e;
+  border: none;
+  color: #fff;
+}
+
+.section1 {
+  width: 100%;
+  height: 550px;
+  background-color: #101010;
+  background-image: url("../img/download.jpg");
+  background-size: 100%;
+}
+
+.section1 .tex1 {
+  width: auto;
+  height: auto;
+  padding-top: 30vh;
+  margin-left: 10vh;
+}
+
+.section1 .tex1 p {
+  color: rgba(198, 201, 216, 0.75);
+  font-size: 17px;
+}
+
+.section1 .tex1 h1 {
+  color: wheat;
+  font-size: 12vh;
+}
+
+.section1 .tex1 h1 span {
+  color: #f9004d;
+}
+
+.section1 img {
+  width: 100%;
+  height: 500px;
+  padding-bottom: 30px;
+}
+
+.section2 {
+  width: 100%;
+  height: 700px;
+  background: #191919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section2 .img2 {
+  width: 60%;
+  height: 300px;
+  padding-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 20vh;
+}
+
+.section2 .img2 img {
+  width: 60%;
+  height: 500px;
+}
+
+.section2 .text2 {
+  color: rgba(198, 201, 216, 0.75);
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.section2 .text2 a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.section2 .text2 h1 {
+  color: #fff;
+  font-size: 80px;
+}
+/*# sourceMappingURL=index.css.map */
